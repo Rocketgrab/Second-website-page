@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #66BFBF;
+  border-width: 5px;
+  width: 5%;
+  margin: 50px auto;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.a_programmer {
+  margin-top: 10px;
+  position: relative;
+
+}
+
+p {
+  line-height: 2;
+}
+
+.top_container {
+  background-color: #9be3de;
+  position: relative;
+  padding: 100px;
+}
+
+.middle_container {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+
+.bottom-container {
+
+  padding: 50px 0 20px;
+  background-color: #9be3de;
+}
+
+.pro {
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 410px;
+}
+
+.chillies {
+
+  margin-top: 29.92px;
+  margin-bottom: 19.92;
+  width: 200px;
+}
+
+.mandalorian {
+  margin-bottom: 19.92;
+  margin-right: 30px;
+  border-radius: 50%;
+  width: 200px;
+  float: left;
+}
+
+.computer {
+  margin-top: 10px;
+  margin-bottom: 19.92;
+  margin-left: 30px;
+  border-radius: 50%;
+  width: 200px;
+  float: right;
+}
+
+.footer-link {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 20px;
+  text-decoration: none;
+  position: relative;
+  margin-top: 30px;
+
+}
+.footer-link:hover {
+  color: white;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.btn {
+	box-shadow: 1px 1px 1px 1px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:-1px -1px 1px #5b6178;
+  margin-bottom: 32px;
+
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.75rem;
+  margin-top: 20px;
+}
